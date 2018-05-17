@@ -1,0 +1,53 @@
+#contact {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/footer/world-map.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    padding: 60px 0;
+    text-align: center;
+    h2 {
+
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .cursive {
+        font-family: 'Droid Serif', sans-serif;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+
+        input,
+        textarea {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 5px;
+
+
+
+        }
+        textarea {
+            height: 230px;
+        }
+
+    }
+    input[type='submit'] {
+        text-transform: uppercase;
+        background-color: #00FFFF;
+        color: #fff;
+        height: 50px;
+        border-radius: 10px;
+        border-style: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+
+    }
+
+}

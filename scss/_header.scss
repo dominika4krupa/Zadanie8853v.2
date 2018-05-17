@@ -1,0 +1,46 @@
+#header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/header/pictures_on_the_wall.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .header-inner {
+        text-align: center;
+        color: #FFF;
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 65px;
+        }
+        h2 {
+            font-family: 'Droid Serif', sans-serif;
+            font-weight: 100;
+
+        }
+        .header-btn {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            background-color: #0ED8D6;
+            border-radius: 10px;
+            height: 40px;
+            border: 1px solid #0ED8D6;
+            color: #FFF;
+            text-transform: uppercase;
+            transition: all 0.4s;
+            &:hover {
+                background-color: #FFF;
+                color: #0ED8D6;
+            }
+
+
+        }
+
+    }
+
+}

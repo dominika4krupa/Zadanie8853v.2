@@ -1,0 +1,56 @@
+#team {
+    text-align: center;
+    padding: 60px 0;
+    header {
+        margin-bottom: 50px;
+
+        h2 {
+
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+        .cursive {
+            font-family: 'Droid Serif', sans-serif;
+        }
+
+    }
+
+
+    figure {
+        font-family: 'Montserrat', sans-serif;
+
+        img {
+
+            border-radius: 66%;
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        figcaption {
+            font-weight: bold;
+        }
+
+    }
+
+    a {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: #000;
+        transition: all 0.4s;
+        border-radius: 50%;
+        &:hover {
+            background-color: #0ED8D6;
+        }
+        .fa {
+            color: #FFF;
+            font-size: 25px;
+            line-height: 50px;
+        }
+
+    }
+
+}

@@ -1,0 +1,89 @@
+#portfolio {
+    background-color: #F7F7F7;
+    padding: 60px 0;
+    text-align: center;
+    h2 {
+
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .cursive {
+        font-family: 'Droid Serif', sans-serif;
+    }
+    .portfolio-item {
+
+        background-color: #FFF;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+        h3 {
+            margin-top: 15px;
+
+        }
+        .overflow {
+            overflow: hidden;
+            height: 300px;
+
+            #portfolio-item-1 {
+                background-image: url('../img/portfolio/box_of_cookies.jpg');
+            }
+            #portfolio-item-2 {
+                background-image: url('../img/portfolio/chaotic_paint.jpg');
+            }
+            #portfolio-item-3 {
+                background-image: url('../img/portfolio/chestnut_on_bracket.jpg')
+            }
+
+            #portfolio-item-4 {
+                background-image: url('../img/portfolio/child_with_blue_paint.jpg');
+            }
+
+            #portfolio-item-5 {
+                background-image: url('../img/portfolio/house_with_blue_doors.jpg');
+            }
+
+
+            #portfolio-item-6 {
+                background-image: url('../img/portfolio/typing_on_laptop.jpg');
+            }
+
+
+
+
+            .background {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                height: 100%;
+                transition: all 0.4s;
+                &:hover {
+                    transform: scale(1.5);
+
+                }
+                .mask {
+                    background-color: rgba(14, 216, 214, 0.6);
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    opacity: 0;
+                    transition: all 0.4s;
+                    &:hover {
+                        opacity: 1;
+                    }
+                    .fa {
+                        color: #FFF;
+                        font-size: 30px;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+
+}
